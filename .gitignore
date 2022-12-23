@@ -1,6 +1,6 @@
 REDME.md
 # Ignore node_modules Code internals
-/node_modules
+node_modules/*
 # Ignore Visual Studio Code internals
 /.vscode
 
