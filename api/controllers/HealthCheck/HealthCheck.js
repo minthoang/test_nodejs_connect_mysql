@@ -9,8 +9,8 @@ module.exports = {
         let sql = 'SELECT * FROM Persons'
         db.query(sql, (err, response) => {
             if (err) throw err
-            //res.json(response)
-            res.json({"success": true})
+            res.json(response)
+            //res.json({"success": true})
         })
     }
 };
